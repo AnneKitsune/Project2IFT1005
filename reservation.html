@@ -1,0 +1,55 @@
+<!-- Fait par Marc Grenier et Joël Lupien -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pasterino Ricoco</title>
+</head>
+<body>
+    <nav>
+        <h1>Pasterino Ricoco</h1>
+        <h3>Le meilleur restaurant du globe!</h3>
+        <div id="nav-links">
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./reservation.html">Reservation</a></li>
+                <li><a href="./design.html">Design</a></li>
+                <li><a href="./about.html">À Propos</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <h2>Passer une réservation</h2>
+        <p>
+            Vous avez peur de ne pas avoir de place durant la saison de gloutonnerie des smolgol? Ne vous en faites pas! Pour un modeste coût de 99.99$, vous aurez une table garantie au sein de notre établissement. Imaginez, vous pourrez enfin profiter des meilleurs plâts sans avoir à vous bousculer pendant des heures dans la file d'attente. N'attendez pas! Les places sont toujours limités!<br>
+            <i>Note: La salle de consommation interdimensionnelle sera bientôt achevée.</i>
+        </p>
+
+        <form method="post" action="http://www-etud.iro.umontreal.ca/~chartral/ift1005/form_print.php">
+              <label for="myNom">* Nom:</label>
+              <input type="text" name="myNom" id="myNom"
+              required="required">
+              
+              <label for="myNom">* Addresse:</label>
+              <input type="text" name="myNom" id="myNom"
+              required="required">
+              
+              <label for="myEmail">* Email:</label>
+              <input type="email" name="myEmail" id="myEmail"
+              required="required">
+
+              <label for="myTel">Téléphone:</label>
+              <input type="tel" name="myTel" id="myTel" pattern="\d+">
+
+              <input id="mySubmit" type="submit" value="Je réserve!">
+        </form>
+    </main>
+    <footer>
+        <p>
+            &copy; <span class="footer-name">Pasterino Ricoco</span> 2018 <br>
+            Authors: Marc Grenier & Joël Lupien
+        </p>
+    </footer>
+</body>
+</html>
