@@ -12,3 +12,9 @@ Rev1 - Rendre conforme aux exigences (projet-2.pdf)
 * Remplace pizza par pâtes
 * Corrige quelques fautes d'orthographes
 
+Rev2 - Ajouts des elements de base CSS
+
+* Ajoute le fichier styles.css
+* Ajoute deux polices (via Google fonts API)
+* Utilise couleurs sur les headings et paragraphs
+* Ajoute repertoire (../img) pour les images
