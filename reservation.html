@@ -27,10 +27,11 @@
         </div>
     </nav>
     <main>
-        <h2>Passer une réservation</h2>
+        <h2>Passer une commande</h2>
         <p>
-            Vous avez peur de ne pas avoir de place durant la saison de gloutonnerie des smolgol? Ne vous en faites pas! Pour un modeste coût de 99.99$, vous aurez une table garantie au sein de notre établissement. Imaginez, vous pourrez enfin profiter des meilleurs plâts sans avoir à vous bousculer pendant des heures dans la file d'attente. N'attendez pas! Les places sont toujours limités!<br>
-            <i>Note: La salle de consommation interdimensionnelle sera bientôt achevée.</i>
+            Vous voulez avoir des plâts d'excellente qualité chez vous? Vous êtes au bon endroit! À partir de cette page, vous pouvez commander les plâts de votre choix. Ils seront préparés à l'avance et il ne vous restera plus qu'à passer les chercher à notre comptoir.
+            <br>
+            <i>Note: Les délais de préparation peuvent varier selon l'heure de la journée.</i>
         </p>
 
         <form method="post" action="http://www-etud.iro.umontreal.ca/~chartral/ift1005/form_print.php">
@@ -49,13 +50,47 @@
               <label for="myTel">Téléphone:</label>
               <input type="tel" name="myTel" id="myTel" pattern="\d+">
 
-              <input id="mySubmit" type="submit" value="Je réserve!">
+              <fieldset>
+                <legend>Plât</legend>
+                <input type="radio" name="dish" value="alfredo" checked>Alfredo<br>
+                <input type="radio" name="dish" value="pesto">Pesto<br>
+                <input type="radio" name="dish" value="carbonara">Carbonara<br>
+                <input type="radio" name="dish" value="montrealaise">Montréalaise<br>
+              </fieldset>
+
+              <fieldset>
+                <legend>Pâte</legend>
+                <input type="radio" name="pasta" value="fettuccini" checked>Fettuccini<br>
+                <input type="radio" name="pasta" value="spaghettini">Spaghettini<br>
+                <input type="radio" name="pasta" value="vermicelli">Vermicelli<br>
+                <input type="radio" name="pasta" value="raviolli">Raviolli<br>
+              </fieldset>
+
+              <fieldset>
+                <legend>Salade</legend>
+                <input type="radio" name="salad" value="nicoise" checked>Niçoise<br>
+                <input type="radio" name="salad" value="russe">Russe<br>
+                <input type="radio" name="salad" value="jardinière">Jardinière<br>
+                <input type="radio" name="salad" value="gazpatcho">Gazpatcho<br>
+                <input type="radio" name="salad" value="null">Aucun<br>
+              </fieldset>
+
+              <fieldset>
+                <legend>Fromage</legend>
+                <input type="radio" name="cheese" value="parmesan" checked>Parmesan<br>
+                <input type="radio" name="cheese" value="gruyere">Gruyère<br>
+                <input type="radio" name="cheese" value="chevre">Chèvre<br>
+                <input type="radio" name="cheese" value="oka">Oka<br>
+                <input type="radio" name="cheese" value="null">Aucun<br>
+              </fieldset>
+
+              <input id="mySubmit" type="submit" value="Je commande!">
         </form>
     </main>
     <footer>
         <p>
             &copy; <span class="footer-name">Pasterino Ricoco</span> 2018 <br>
-            Concept resto original: Joël Lupien
+            Créé par Joël Lupien et Marc Grenier.
         </p>
     </footer>
 </body>
