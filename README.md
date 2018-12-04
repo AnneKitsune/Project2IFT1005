@@ -18,3 +18,7 @@ Rev2 - Ajouts des elements de base CSS
 * Ajoute deux polices (via Google fonts API)
 * Utilise couleurs sur les headings et paragraphs
 * Ajoute repertoire (../img) pour les images
+
+Rev3 - Ajouts du repertoire img
+
+* inclus des photos pour cheese, dish, pasta et salads
