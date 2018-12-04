@@ -27,3 +27,7 @@ Rev4 - Complète les sections de a_propos.html
 
 * Ajout du contenu pour la page a_propos.html
 * Plusieurs modifications au ficher styles.css
+
+Rev5 - Ajouts styles et images
+
+* ajout du repertoire img/misc (logo, idee navbar)

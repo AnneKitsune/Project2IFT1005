@@ -1,8 +1,18 @@
 /* Fait par Marc Grenier et Joël Lupien */
 
+/* couleurs:
+bleu pale: #A4B0D3 fonce: #3D3C4B 
+jaune: #D4880D
+vert: #645B1D
+bois fonce: #200D04
+*/
+
+body {
+    
+}
 h1, h2, h3 {
     font-family: 'Tahoma', Arial, sans-serif;
-    color: darkred;
+    color: #200D04;
 }
 
 p, li, dl {
@@ -27,3 +37,7 @@ dd {
     margin-bottom: 5px; 
 }
 
+footer {
+    height: 300px;
+    background-color: #3D3C4B;
+}
