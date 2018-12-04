@@ -22,3 +22,8 @@ Rev2 - Ajouts des elements de base CSS
 Rev3 - Ajouts du repertoire img
 
 * inclus des photos pour cheese, dish, pasta et salads
+
+Rev4 - Complète les sections de a_propos.html
+
+* Ajout du contenu pour la page a_propos.html
+* Plusieurs modifications au ficher styles.css

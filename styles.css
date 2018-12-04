@@ -1,9 +1,29 @@
+/* Fait par Marc Grenier et Joël Lupien */
+
 h1, h2, h3 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Tahoma', Arial, sans-serif;
     color: darkred;
 }
 
-p , li {
-    font-family: 'Nunito', sans-serif;
+p, li, dl {
+    font-family: 'Nunito', Arial, sans-serif;
+    font-size: 1.2em;
     color: black;
 }
+
+dt {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-indent: 1em;
+    text-transform: uppercase;
+    line-height: 1.8;
+    
+}
+
+dd {
+    font-size: 1.3em;
+    font-style: italic; 
+    text-indent: 2em;
+    margin-bottom: 5px; 
+}
+
