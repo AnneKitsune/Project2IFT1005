@@ -22,7 +22,7 @@ body {
 
 #wrapper {
     background-color: white;
-    box-shadow: 1px 3px 3px 3px black;
+    box-shadow: 3px 3px 3px black;
 }
 
 header {
@@ -72,8 +72,12 @@ p, dl {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: overline;
     color: #3D3C4B;
+}
+
+.HeadCtr {
+    text-align: center;
 }
 
 dt {

@@ -31,3 +31,12 @@ Rev4 - Complète les sections de a_propos.html
 Rev5 - Ajouts styles et images
 
 * ajout du repertoire img/misc (logo, idee navbar)
+
+Rev6 - Layout
+
+* Layout responsive de index, reservations, design, a_propos
+
+Rev7 - New design for menu.html
+
+* Erase the table structure
+* Adds new set of images (all same size)
