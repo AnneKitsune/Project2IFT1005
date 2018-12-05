@@ -80,7 +80,7 @@ p, dl {
     color: #3d0902;
 }
 
-a {
+nav ul li a {
     text-decoration: overline;
     color: #3D3C4B;
 }
