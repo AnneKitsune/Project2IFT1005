@@ -40,3 +40,8 @@ Rev7 - New design for menu.html
 
 * Erase the table structure
 * Adds new set of images (all same size)
+
+Rev8 - Ajout contenu pour design.html
+
+* Crée les quatre sections
+* Inclus le texte correspondant
