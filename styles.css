@@ -4,7 +4,7 @@
 bleu pale: #A4B0D3 fonce: #3D3C4B 
 jaune: #D4880D
 vert: #645B1D
-bois fonce: #200D04
+bois fonce: #3d0902
 */
 
 * {
@@ -12,20 +12,68 @@ bois fonce: #200D04
 }
 
 body {
+  font-family: 'Nunito', Arial, sans-serif;
   width: 80%;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #3D3C4B;
 }
+
+#wrapper {
+    background-color: white;
+    box-shadow: 1px 3px 3px 3px black;
+}
+
+header {
+    height: 80px;
+    background-color: #3d0902;
+    }
+
+#logo { 
+    display: inline;
+    float: left;
+}
+
+#slogan {
+    color: white;
+    display: inline;
+    padding-right: 10px;
+    float: right;
+}
+
+#resto {
+    max-width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.6em;
+    padding: 0 .5em 0;
+  }
+nav {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
 
 h1, h2, h3 {
     font-family: 'Tahoma', Arial, sans-serif;
-    color: #200D04;
+    padding: 5px 10px 5px; 
+    color: #3D3C4B;
 }
 
-p, li, dl {
-    font-family: 'Nunito', Arial, sans-serif;
+p, dl {
+    padding: 5px 10px 5px; 
     font-size: 1.2em;
-    color: black;
+    color: #3d0902;
+}
+
+a {
+    text-decoration: none;
+    color: #3D3C4B;
 }
 
 dt {
@@ -47,13 +95,13 @@ dd {
 footer {
     margin-bottom: 30px;
     margin-top: 30px;
-    background-color: #3D3C4B;
+    background-color: #D4880D;
 }
 
 table {
   width: 90%;
   margin: auto;
-  border: 1px solid #3399CC;
+  border: 1px solid #3d0902;
   border-collapse: collapse;
 }
 
@@ -80,6 +128,7 @@ input, textarea {
 
 footer {
   text-align: center;
+  height: 100px;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -93,7 +142,6 @@ footer {
     font-size: 1.3em;
   }
   nav {
-    background-color: #90C7E3;
     width: 100%;
     display: inline-block;
   }
@@ -110,7 +158,10 @@ footer {
   body {
     width: 100%;
   }
-  #titleholder {
+  header {
+    display: none;
+}
+#titleholder {
     margin: 0px; 
     padding: 0px;
   }  
@@ -129,7 +180,6 @@ footer {
     padding: 0px;
   }
   nav {
-    background-color: #90C7E3;
     width: 100%;
     display: inline-block;
     margin: 0;
