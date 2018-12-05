@@ -4,7 +4,7 @@
 bleu pale: #A4B0D3 fonce: #3D3C4B 
 jaune: #D4880D
 vert: #645B1D
-bois fonce: #3d0902
+bois fonce: #200D04
 */
 
 * {
@@ -12,77 +12,20 @@ bois fonce: #3d0902
 }
 
 body {
-  font-family: 'Nunito', Arial, sans-serif;
   width: 80%;
-  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #3D3C4B;
 }
 
-#wrapper {
-    background-color: white;
-    box-shadow: 1px 3px 3px 3px black;
-}
-
-header {
-    height: 80px;
-    background-color: #3d0902;
-    }
-
-#logo { 
-    display: inline;
-    float: left;
-}
-
-#slogan {
-    color: white;
-    display: inline;
-    padding-right: 10px;
-    float: right;
-}
-
-#resto {
-    width: 100%;
-}
-
-nav li {
-    display: inline-block;
-    font-size: 1.6em;
-    padding: 0 .5em 0;
-  }
-nav {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-  }
-
-
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-family: 'Tahoma', Arial, sans-serif;
-    padding: 5px 10px 5px; 
-    color: #3D3C4B;
+    color: #200D04;
 }
 
-h2 {
-  color: #3399CC;
-  text-align: center;
-}
-
-h4 {
-  text-align: center;
-}
-
-p, dl {
-    padding: 5px 10px 5px; 
+p, li, dl {
+    font-family: 'Nunito', Arial, sans-serif;
     font-size: 1.2em;
-    color: #3d0902;
-}
-
-a {
-    text-decoration: none;
-    color: #3D3C4B;
+    color: black;
 }
 
 dt {
@@ -104,13 +47,13 @@ dd {
 footer {
     margin-bottom: 30px;
     margin-top: 30px;
-    background-color: #D4880D;
+    background-color: #3D3C4B;
 }
 
 table {
   width: 90%;
   margin: auto;
-  border: 1px solid #3d0902;
+  border: 1px solid #3399CC;
   border-collapse: collapse;
 }
 
@@ -118,17 +61,12 @@ tr:nth-child(even) {
   background: ghostwhite;
 }
 
-main {
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
 form { 
   min-width: 350px; 
 }
 
 label {
-  display: inline-block;
+  float: left;
   width: 155px; 
   margin-bottom: 10px; 
   text-align: left; 
@@ -137,20 +75,10 @@ label {
 
 input, textarea { 
   margin-bottom: 10px; 
-  display: inline-block;
+  display: block;
 }
 
 footer {
-  text-align: center;
-  height: 100px;
-}
-
-.menuimg {
-    width: 256px;
-    height: 256px;
-}
-
-tr {
   text-align: center;
 }
 
@@ -165,6 +93,7 @@ tr {
     font-size: 1.3em;
   }
   nav {
+    background-color: #90C7E3;
     width: 100%;
     display: inline-block;
   }
@@ -181,7 +110,6 @@ tr {
   body {
     width: 100%;
   }
-  
   #titleholder {
     margin: 0px; 
     padding: 0px;
@@ -201,12 +129,13 @@ tr {
     padding: 0px;
   }
   nav {
+    background-color: #90C7E3;
     width: 100%;
     display: inline-block;
     margin: 0;
   }
-  ul, menu, dir {
-    -webkit-padding-start: 0px;
+  img {
+    display: none;
   }
   #column-right {
     display: inline-block;
