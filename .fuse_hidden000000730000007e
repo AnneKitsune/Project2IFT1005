@@ -1,0 +1,53 @@
+<!-- Fait par Marc Grenier et Joël Lupien -->
+
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+    <meta charset="utf-8">
+    <title>Pasterino Ricoco</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+<body>
+    <header> 
+        
+    </header>
+    <nav>
+        <h1>Pasterino Ricoco</h1>
+        <h3>Le meilleur restaurant du globe!</h3>
+        <div id="nav-links">
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./reservation.html">Reservations</a></li>
+                <li><a href="./design.html">Design</a></li>
+                <li><a href="./a_propos.html">À Propos</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <h2>Les meilleures pâtes!</h2>
+        <p>
+            C'est vrai! Il a été formellement prouvé que nos pâtes sont les meilleures qui existent dans l'Univers! La preuve complète se trouve <a href="http://hackertyper.com/">à cette addresse.</a> Vous devez appuyer sur les touches de votre clavier afin de voir la preuve apparaître.
+        </p>
+        <h2>Ouvert 24/7</h2>
+        <p>
+            Nos pâtes sont tellement bonnes que certaines personnes sont devenues complétement dépendentes d'elles. Afin d'éviter tout problèmes, nous avons été obligés de changer nos heures d'ouvertures pour être ouvert à toute heure du jour ou de la nuit.
+        </p>
+        <h2>Choix de pâte unique.</h2>
+        <p>
+            Notre attraction principale est très simple, mais très efficace. Au lieu de simplement proposer des plâts normaux, nous offrons le plât en question avec le choix de pâte offert. Vous choisissez d'abord le type de plât que vous voulez, et ensuite le type de pâte avec lequel il sera fait.
+        </p>
+        <h2>Haut et bas de gamme.</h2>
+        <p>
+            Nous avons une large variété d'ingrédients avec des qualités qui varient de une à cinq étoiles. Selon le type de plât et de pâte choisi, le prix sera généré à partir de la qualité des ingrédients utilisés.
+        </p>
+    </main>
+    <footer>
+        <p>
+            &copy; <span class="footer-name">Pasterino Ricoco</span> 2018<br>
+            Créé par Joël Lupien et Marc Grenier.
+        </p>
+    </footer>
+</body>
+</html>
