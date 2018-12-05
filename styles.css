@@ -43,7 +43,7 @@ header {
 }
 
 #resto {
-    max-width: 100%;
+    width: 100%;
 }
 
 nav li {
@@ -59,10 +59,19 @@ nav {
   }
 
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Tahoma', Arial, sans-serif;
     padding: 5px 10px 5px; 
     color: #3D3C4B;
+}
+
+h2 {
+  color: #3399CC;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
 }
 
 p, dl {
@@ -113,12 +122,17 @@ tr:nth-child(even) {
   background: ghostwhite;
 }
 
+main {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 form { 
   min-width: 350px; 
 }
 
 label {
-  float: left;
+  display: inline-block;
   width: 155px; 
   margin-bottom: 10px; 
   text-align: left; 
@@ -127,12 +141,21 @@ label {
 
 input, textarea { 
   margin-bottom: 10px; 
-  display: block;
+  display: inline-block;
 }
 
 footer {
   text-align: center;
   height: 100px;
+}
+
+.menuimg {
+    width: 256px;
+    height: 256px;
+}
+
+tr {
+  text-align: center;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -162,10 +185,8 @@ footer {
   body {
     width: 100%;
   }
-  header {
-    display: none;
-}
-#titleholder {
+  
+  #titleholder {
     margin: 0px; 
     padding: 0px;
   }  
@@ -188,8 +209,8 @@ footer {
     display: inline-block;
     margin: 0;
   }
-  img {
-    display: none;
+  ul, menu, dir {
+    -webkit-padding-start: 0px;
   }
   #column-right {
     display: inline-block;
